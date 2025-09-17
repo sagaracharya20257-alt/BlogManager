@@ -1,0 +1,22 @@
+:root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{margin:0;background:#f6f8fa;color:#0b1220}
+.centered{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px}
+.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.hint{font-size:13px;color:#6b7280;margin-top:8px}
+label{display:block;margin:8px 0}
+input,textarea{width:100%;padding:8px;border-radius:6px;border:1px solid #e6e9ee;margin-top:6px}
+button{padding:8px 12px;border-radius:8px;border:none;background:#2563eb;color:#fff;cursor:pointer}
+button.btn-ghost{background:transparent;color:#374151;border:1px solid #e6e9ee}
+button.danger{background:#dc2626}
+.error{color:#dc2626;margin-top:8px}
+.info{color:#374151;margin:8px 0}
+.page{max-width:900px;margin:24px auto;padding:0 12px}
+.add-card input, .add-card textarea{margin-bottom:8px}
+.posts-list{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+.post{padding:12px}
+.post-actions{display:flex;gap:6px;margin-top:8px}
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center;padding:16px}
+.modal{width:100%;max-width:520px}
+.muted{color:#374151;margin-right:8px}
